@@ -19,6 +19,10 @@
 		BCEB4C6B186124820065D53D /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BCEB4C53186124820065D53D /* UIKit.framework */; };
 		BCEB4C73186124820065D53D /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = BCEB4C71186124820065D53D /* InfoPlist.strings */; };
 		BCEB4C75186124820065D53D /* PlayingCardDeckTests.m in Sources */ = {isa = PBXBuildFile; fileRef = BCEB4C74186124820065D53D /* PlayingCardDeckTests.m */; };
+		BCEB4C80186124A70065D53D /* PlayingCard.m in Sources */ = {isa = PBXBuildFile; fileRef = BCEB4C7F186124A70065D53D /* PlayingCard.m */; };
+		BCEB4C83186125200065D53D /* PlayingCardDeck.m in Sources */ = {isa = PBXBuildFile; fileRef = BCEB4C82186125200065D53D /* PlayingCardDeck.m */; };
+		BCEB4C87186128F30065D53D /* TestViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BCEB4C85186128F30065D53D /* TestViewController.m */; };
+		BCEB4C88186128F30065D53D /* TestViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = BCEB4C86186128F30065D53D /* TestViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -48,6 +52,13 @@
 		BCEB4C70186124820065D53D /* PlayingCardDeckTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "PlayingCardDeckTests-Info.plist"; sourceTree = "<group>"; };
 		BCEB4C72186124820065D53D /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		BCEB4C74186124820065D53D /* PlayingCardDeckTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PlayingCardDeckTests.m; sourceTree = "<group>"; };
+		BCEB4C7E186124A70065D53D /* PlayingCard.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PlayingCard.h; sourceTree = "<group>"; };
+		BCEB4C7F186124A70065D53D /* PlayingCard.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PlayingCard.m; sourceTree = "<group>"; };
+		BCEB4C81186125200065D53D /* PlayingCardDeck.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PlayingCardDeck.h; sourceTree = "<group>"; };
+		BCEB4C82186125200065D53D /* PlayingCardDeck.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PlayingCardDeck.m; sourceTree = "<group>"; };
+		BCEB4C84186128F30065D53D /* TestViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TestViewController.h; sourceTree = "<group>"; };
+		BCEB4C85186128F30065D53D /* TestViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TestViewController.m; sourceTree = "<group>"; };
+		BCEB4C86186128F30065D53D /* TestViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TestViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -109,6 +120,13 @@
 			children = (
 				BCEB4C5E186124820065D53D /* AppDelegate.h */,
 				BCEB4C5F186124820065D53D /* AppDelegate.m */,
+				BCEB4C7E186124A70065D53D /* PlayingCard.h */,
+				BCEB4C7F186124A70065D53D /* PlayingCard.m */,
+				BCEB4C81186125200065D53D /* PlayingCardDeck.h */,
+				BCEB4C82186125200065D53D /* PlayingCardDeck.m */,
+				BCEB4C84186128F30065D53D /* TestViewController.h */,
+				BCEB4C85186128F30065D53D /* TestViewController.m */,
+				BCEB4C86186128F30065D53D /* TestViewController.xib */,
 				BCEB4C61186124820065D53D /* Images.xcassets */,
 				BCEB4C56186124820065D53D /* Supporting Files */,
 			);
@@ -220,6 +238,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				BCEB4C5A186124820065D53D /* InfoPlist.strings in Resources */,
+				BCEB4C88186128F30065D53D /* TestViewController.xib in Resources */,
 				BCEB4C62186124820065D53D /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -239,8 +258,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BCEB4C80186124A70065D53D /* PlayingCard.m in Sources */,
+				BCEB4C83186125200065D53D /* PlayingCardDeck.m in Sources */,
 				BCEB4C60186124820065D53D /* AppDelegate.m in Sources */,
 				BCEB4C5C186124820065D53D /* main.m in Sources */,
+				BCEB4C87186128F30065D53D /* TestViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
